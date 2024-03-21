@@ -1,6 +1,8 @@
-from random import random
+import random
 def DiceRoller(num, MaxValue):
-    x =0
+    d =0
+    Overall = 0
     while x != num:
-        random.randrange(1, MaxValue)
+        Overall = random.randrange(1, MaxValue, 1)
         x = x + 1
+    return Overall
