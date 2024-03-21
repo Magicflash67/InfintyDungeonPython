@@ -1,6 +1,9 @@
 import random
+import CharaterCreature
+
 def DiceRoller(num, MaxValue):
     d =0
+    MaxValue = MaxValue + 1
     Overall = 0
     while x != num:
         Overall = random.randrange(1, MaxValue, 1)
