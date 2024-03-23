@@ -1,11 +1,14 @@
 import random
 import CharaterCreature
+import DND
 
 def DiceRoller(num, MaxValue):
     d =0
     MaxValue = MaxValue + 1
     Overall = 0
-    while x != num:
+    while d != num:
         Overall = random.randrange(1, MaxValue, 1)
-        x = x + 1
+        d = d + 1
     return Overall
+
+print(CharaterCreature.hamdert)
